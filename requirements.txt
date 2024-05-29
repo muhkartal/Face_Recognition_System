@@ -1,15 +1,4 @@
 streamlit
 pandas
-cv2
 redis
-insightface.app
-sklearn.metrics
-time
-datetime
-os
-streamlit_webrtc
-av
-tempfile
-io
-PIL
 numpy
