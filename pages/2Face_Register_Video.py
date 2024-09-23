@@ -49,9 +49,9 @@ st.markdown("<div class='main-header'>Kayıt Formu</div>", unsafe_allow_html=Tru
 st.markdown("<div class='sub-header'>Lütfen bilgilerinizi girin ve yüz tanıma için video akışını başlatın</div>", unsafe_allow_html=True)
 
 # Redis DB data setine bağlanma
-hostname = 'redis-12142.c328.europe-west3-1.gce.redns.redis-cloud.com'
-portnumber = 12142
-password = '4u4Una8wpymqKW0TnpLIMGinEsH5TXBu'
+hostname = 'your-hostname'
+portnumber = your-portnumber
+password = 'your-pass'
 
 r = redis.StrictRedis(host=hostname, port=portnumber, password=password)
 
