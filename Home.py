@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Sayfa yapılandırması
-st.set_page_config(page_title='Haliç Üniversitesi Bilgi İşlem Daire Başkanlığı', layout='wide')
+st.set_page_config(page_title='Yüz Tanıma Sistemi Portalı', layout='wide')
 
 # CSS ile stil iyileştirmeleri
 st.markdown("""
@@ -51,7 +51,7 @@ st.markdown("<div class='logo-container'>", unsafe_allow_html=True)
 st.markdown("</div>", unsafe_allow_html=True)
 
 # Başlık
-st.markdown("<div class='main-header'>Haliç Üniversitesi Bilgi İşlem Daire Başkanlığı</div>", unsafe_allow_html=True)
+st.markdown("<div class='main-header'>Yüz Tanıma Sistemi Portalı</div>", unsafe_allow_html=True)
 
 # Yükleme sürecini göstermek için spinner
 with st.spinner("Modeller yükleniyor ve Redis veritabanına bağlanıyor ..."):
@@ -79,11 +79,9 @@ st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
 # Ek içerik bölgesi
 st.markdown("""
     <div class='content-section'>
-        Haliç Üniversitesi Bilgi İşlem Daire Başkanlığı ana sayfasına hoş geldiniz. Burada, Haliç Üniversitesi Bilgi İşlem Daire Başkanlığı tarafından sağlanan çeşitli kaynaklar ve araçları bulabilirsiniz.
-        <br/><br/>
-        Bilgi İşlem Daire Başkanlığı, Haliç Üniversitesi'nin BT altyapısını güçlendirmek ve teknolojiyi kullanarak öğrencilere ve personeline en iyi hizmeti sunmak için çalışıyor.
+       
     </div>
 """, unsafe_allow_html=True)
 
 # Alt bilgi
-st.markdown("<div class='footer'>© 2024 Haliç Üniversitesi Bilgi İşlem Daire Başkanlığı. Tüm hakları saklıdır.</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>© 2024 Muhammed İbrahim Kartal. Tüm hakları saklıdır.</div>", unsafe_allow_html=True)
